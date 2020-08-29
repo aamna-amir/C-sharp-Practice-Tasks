@@ -17,7 +17,8 @@ namespace ConsoleApp2
             {
                 numbers[i] = rnd.Next(1, 5001);
             }
-            
+            Sort.BubbleSort(numbers);
+            Console.ReadLine();
         }
     }
 }
