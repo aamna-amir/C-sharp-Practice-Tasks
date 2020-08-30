@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary1;
+//using ClassLibrary1;
 
 namespace ConsoleApp2
 {
@@ -17,7 +17,9 @@ namespace ConsoleApp2
             {
                 numbers[i] = rnd.Next(1, 5001);
             }
-            Sort.BubbleSort(numbers);
+            //Sort.BubbleSort(numbers);
+            string s1 = System.Configuration.ConfigurationManager.AppSettings["k1"];
+            Console.WriteLine(s1);
             Console.ReadLine();
         }
     }
